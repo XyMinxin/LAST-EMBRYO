@@ -5,7 +5,7 @@
     "window": {
         "title": "",
         "toolbar": false,
-        "width": window.innerWidth,
+        "width": 1280,
         "height": 720,
         "icon": "icon/icon.png"
     }
