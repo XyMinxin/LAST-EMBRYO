@@ -25,23 +25,5 @@
         <script type="text/javascript" src="js/rpg_windows.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
-        <script type="text/javascript">
-            var winWidth = 0;
-            var winHeight = 0;
-            function findWindowSize() {
-                if (window.innerWidth)
-                    winWidth = window.innerWidth;
-                else if ((document.body) && (document.body.clientWidth))
-                    winWidth = document.body.clientWidth;
-                if (window.innerHeight)
-                    winHeight = window.innerHeight;
-                else if ((document.body) && (document.body.clientHeight))
-                    winHeight = document.body.clientHeight;
-                document.form1.availHeight.value= winHeight;
-                document.form1.availWidth.value= winWidth;
-            }
-            findWindowSize();
-            window.onresize=findWindowSize;
-        </script>
     </body>
 </html>
